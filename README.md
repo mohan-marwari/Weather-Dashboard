@@ -34,6 +34,8 @@ src
 │   ├── Forecast.jsx             # Displays 5-day weather forecast
 │   ├── SearchBar.jsx            # Autocomplete search for city names
 │   ├── TemperatureChart.jsx     # Displays temperature trend chart
+├── hooks
+│   ├── useWeatherChart.js       # Custom hook for temperature chart data
 ├── pages
 │   ├── HomePage.jsx             # Main page with weather details and forecast
 ├── services
@@ -107,7 +109,7 @@ src
 ## Screenshots
 
 ### Home Page
-![Home Page Screenshot](./screenshots/homepage.png)
+![Home Page Screenshot](./src/assets/screenshots/homepage.png)
 
 ---
 
@@ -128,7 +130,7 @@ src
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
